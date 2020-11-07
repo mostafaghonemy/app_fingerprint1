@@ -203,8 +203,7 @@ class _Screen2State extends State<Screen2> {
 
                       print((myController.text));
                       //Directory tempDir = await getExternalStorageDirectory();
-                      Directory tempDir =
-                          await getApplicationDocumentsDirectory();
+                      Directory tempDir = await getExternalStorageDirectory();
 
                       String tempPath = tempDir.path;
                       print(tempPath);
